@@ -1,5 +1,6 @@
 import React from 'react';
 import './Container.css';
+import Input from '../Input/Input';
 
 export default class Container extends React.Component {
   constructor(props) {
@@ -9,8 +10,7 @@ export default class Container extends React.Component {
   render() {
     return (
       <div className='main-container'>
-        <div>test</div>
-        <div>test</div>
+        <Input />
       </div>
     );
   }
