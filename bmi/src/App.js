@@ -1,9 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import Container from './Components/Container/Container';
 function App() {
-  return <div></div>;
+  return (
+    <div className='body-wrap'>
+      <Container />
+    </div>
+  );
 }
 
 export default App;
